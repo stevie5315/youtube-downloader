@@ -21,3 +21,11 @@ This Python script allows you to download YouTube videos using the [pytube libra
 ## Note
 - Ensure you have the necessary permissions to download videos from YouTube.
 - Be mindful of the YouTube terms of service regarding downloading videos.
+
+## Contributing
+
+If you would like to contribute to this project, please feel free to submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for more details.
