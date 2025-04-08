@@ -1,8 +1,9 @@
-from pytube import YouTube
+from pytubefix import YouTube
+from pytubefix.cli import on_progress
 
 def download_video(url):
         try:
-            yt = YouTube(url)
+            yt = YouTube(url, on_progress_callback=on_progress)
             
             print("Title:", yt.title)
             print("Views:", yt.views)
@@ -19,7 +20,7 @@ def download_video(url):
 
 def download_audio(url):
         try:
-            yt = YouTube(url)
+            yt = YouTube(url, on_progress_callback=on_progress)
 
             # Get highest bitrate audio stream for given codec (defaults to mp4)
             yd = yt.streams.get_audio_only()
