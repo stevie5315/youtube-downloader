@@ -1,9 +1,9 @@
 # YouTube Video Downloader
 
-This Python script allows you to download YouTube videos using the [pytube library](https://pytube.io/en/latest/user/quickstart.html).
+This Python script allows you to download YouTube videos using the [pytubefix library](https://pypi.org/project/pytubefix/).
 
 ## Instructions
-1. Make sure you have the pytube library installed.
+1. Make sure you have the pytube(pytubefix) library installed.
 2. Run the script in a Python environment.
 3. Enter the YouTube URL when prompted.
 4. The script will download the video with the highest resolution to the current directory.
@@ -16,7 +16,7 @@ This Python script allows you to download YouTube videos using the [pytube libra
 5. Follow the on-screen instructions to download the video.
 
 ## Dependencies
-- [pytube library](https://pytube.io/en/latest/user/quickstart.html)
+- [pytubefix library](https://pypi.org/project/pytubefix/)
 
 ## Note
 - Ensure you have the necessary permissions to download videos from YouTube.
